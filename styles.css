@@ -6,3 +6,12 @@ dark-blue - #134d71;
 white - #ffffff;
 black - #000000;
 */
+body {
+  align-items: center;
+  background: linearGradient(#134d71)
+  background-attachment: fixed;
+  color: #ffffff;
+  display: ?????block;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center; 
+}
