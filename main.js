@@ -15,25 +15,11 @@ var messageDisplay = document.querySelector('.message-box');
 
 
 receiveMessageButton.addEventListener('click', viewRandomMessage);
-//backToMainPageButton.addEventListener('click', showMainPage);
 
 function getRandomIndex(array) {
   return Math.floor(Math.random() * array.length);
 }
 
-function hideImage() {
-  meditationImage.classList.add('hidden');
-}
-
-function hideMainPage() {
-  mainPage.classList.add('hidden');
-  viewFavoritesPage.classList.remove('hidden');
-}
-
-function showMainPage() {
-  mainPage.classList.remove('hidden');
-  viewFavoritesPage.classList.add('hidden');
-}
 
 function selectAffirmation() {
    var randomAffirmation = affirmations[getRandomIndex(affirmations)];
